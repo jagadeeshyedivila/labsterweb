@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labster</title>
+    <style>
+body{
+    width: 100%;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+        #navbar-1{
+            display: flex;
+            align-items: end;
+            justify-content: end;
+            margin: 0px;
+            background-color: hsl(207, 100%, 10%);
+            color: #fff;
+        }
+        li{
+            list-style: none;
+            padding: 20px; 
+        }
+        #language-drop{
+            background-color: transparent;
+            border: none;
+            color:#fff ;
+        }
+        #language-drop option{
+            color: black;
+            border-radius: 0px;
+            background-color:hsl(0, 0%, 100%) ;
+            margin: 20px;
+
+        }
+        #navbar-2 {
+
+            display: flex;
+            justify-content: space-between;
+            background-color: #fff;
+        }
+        #list-nav2 {
+            display: inline-flex;
+            align-items: center;
+            width: auto;
+                 
+        }
+        #list-nav2 a{
+          line-height: 0.2em;
+           color: #0000;
+           text-shadow: 0 0 #000, 0 0.2px #1095c1;
+           overflow: hidden;
+           transition: .3s;
+        }
+        #list-nav2 a:hover{
+            text-shadow: 0 -0.5px #000, 
+    0 0 #1095c1;    
+text-overflow:initial;    }
+
+#navbar-2 img{
+    width: auto;
+    height: auto;
+    padding-left: 20px;
+}
+.button-1 {
+  background-color: #070f74a4;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #4249cb;
+  font-style: oblique;
+}
+#main-section{
+    display: flex;
+    /* justify-content: flex-start; */
+    background-color: hsl(201, 89%, 93%);
+}
+#Sub-section1{
+max-width: 50%;
+max-height: 171.1px;
+margin: 150px;
+justify-content: space-around;
+
+/* text-align: center; */
+ }
+#Sub-section1 h1{
+    font-size: 3em;
+    width:fit-content;
+color: #131343cd;
+    
+}
+#Sub-section2{
+    background-color: hsl(201, 89%, 93%);
+    
+} 
+
+
+.buttonsec1{
+
+max-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 10px;
+    }
+    #video1{
+        margin-right: 100px;
+        justify-content: start;
+        float: right;
+        border:solid 10px rgb(21, 208, 241);
+        border-radius: 0px 75px 0px 75px;
+        margin-top: 50px;
+        border-width: 10px;
+        position: relative;
+   
+    }
+    body, html {
+  height: 100%;
+}
+
+.container1 {
+  /* The image used */
+  background-color: #003c6e;
+color: #fff;
+  /* Full height */
+  height: 100%;
+  display:block;
+  justify-content: center;
+align-content:  center;
+text-align: center;
+  /* Center and scale the image nicely */
+  
+margin-top: 25px;
+  padding-top: 20px;
+}
+#container1list{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    margin:0 70px;
+    font-size: 20px;
+}
+
+#container1list li{
+    margin:65px 25px;
+border-radius: 40px;
+    padding: 14px;
+width: 200px;
+align-items: center;
+background-color: #9edaee;
+color: black;
+}
+#container1list li:hover{
+    color: #fff;
+    background-color: #1095c1;
+}
+#container2{
+align-items:center;
+    display: flex;
+    justify-content: space-between;
+background-color: hsl(60, 20%, 99%);
+border-radius: 25px;
+width: 70%;
+height: 70%;
+margin: auto;
+padding:0 50px;
+}
+#container2 h1{
+    font-size: 32px;
+color:rgb(14, 14, 43);
+margin: 20px;    
+
+text-align: start;
+width: 300px;
+}
+#container2 p{
+    font-size:medium;
+padding: 20px;  
+width: 500px;  
+text-align: start;
+
+}
+ #container2 #Sub-section3{
+    width: 50%;
+}
+#video2{
+    margin-top:0;
+    width: 628px;
+    height: 448px;
+    border: solid transparent;
+    border-radius: 10px;
+
+
+}
+#video2:hover{
+    border: #1095c1 solid;
+ border-radius: 10px;
+}
+#container2 .button-1{
+ display: flex;
+    margin: 20px 20px;
+
+}
+
+.section1{
+        padding: 20px;
+        background: #003c6e;
+    }
+  
+#container4{
+   
+    background-color: #dbf0fd;
+
+}
+#container4 h1{
+    /* display: block; */
+    text-align: center;
+
+}
+
+#anchor{
+    text-align: center;
+    margin: 0 45%;
+    text-decoration: none;
+    color: rgb(114, 74, 247);
+    font-size: larger;
+    font-weight: bold;
+     
+}
+#anchor:hover{
+background-color: black;
+border: transparent;
+border-radius: 25px;
+padding: 10px 10px;
+border: solid yellow 1px;
+color: white;
+}
+.sub-Education{
+display: flex;
+text-align: start;
+justify-content: space-between;
+color: #fff;
+/* text-align: center; */
+margin: auto;
+padding: 50px 0;
+}
+
+.cards{
+    display:flex;
+    /* justify-content: center; */
+    background-color: white;
+    margin: 100px;
+    border-radius: 25px;
+
+}
+.section1{
+    border-radius: 25px;
+}
+.sub-Education img{
+    image-rendering: auto;
+    border-radius: 25px;
+
+}
+#listcontainer{
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+text-align: center;
+margin-left: 120px;
+}
+#listcontainer li{
+    padding: 20px 65px;
+    /* justify-self: center; */
+    align-items: center;
+    background-color:#006fcc ;
+    margin: 0 100px;
+    border-radius: 25px;
+}
+    </style>
+</head>
+<body>
+    <div class="navclass">
+        <div id="navbar-1">
+        <li>Help center</li>
+        <li><select name="language" id="language-drop">
+            <option value="English">English</option>
+             <option value="Telugu">Telugu</option>
+            <option value="Tamil">Tamil</option>
+            <option value="Hindi">Hindi</option>
+        </select></li>
+        <li>Login</li>
+    </div>
+</div>
+    <div id="navbar-2">
+     <div>
+        <img src="../projectsbyAnil/javascript/files/Screenshot 2024-04-19 160636.png" alt="">   
+     </div>
+    <div id="list-nav2">
+        <li><a href="#">Simulations</a></li>
+        <li><a href="#">How it Works</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><button class="button-1" role="button">Try Now</button>
+        </li>
+
+    </div>
+    </div>
+</div>
+    <div id="main-section">
+        <section id="Sub-section1">
+            <h1>Inspire Students with Immersive STEM Learning
+            </h1>
+            <p>
+                Labster’s immersive virtual labs are proven to engage students, reduce dropout rates, and drive equitable learning outcomes.
+            </p>
+            <div class="buttonsec1">
+                <button class="button-1" role="button">Try Now</button>
+                <p>Live Demo -></p>
+            </div>
+        </section>
+        <section id="Sub-section2">
+            <video id="video1" width="100%" height="75%" ; controls>
+                <source src="Hospital.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>  
+      
+     </section>
+    </div>
+
+    <div class="container1">
+        <div id="container1h1">
+        <h1>Delivering the Learning Advantage You Need to Succeed
+        </h1>
+    </div>
+        <div id="container1list" >
+            <li>Enguage Students</li>
+            <li>Enhance Equality</li>
+            <li>Drive Outcomes</li>
+            <li>Empower Educators</li>
+        </div>
+        
+    <div id="container2">
+        <section id="#Sub-section3">
+            <h1>Put Your Students In the Shoes of Real Scientists</h1>
+            <p>Offer students a glimpse into an exciting STEM career through simulations where they experience the thrill of solving real-world challenges.</p>
+            <button class="button-1">Take The Product Tour</button>
+        </section>
+            
+            <section>
+                <video id="video2" width="50%" height="75%" ; controls>
+                    <source src="./hospital1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </section>  
+                  
+             
+            </div>
+            </div>
+            <section id="container4">
+                <h1 >Explore Virtual Labs for Your STEM Programs</h1>
+                </h1>  
+                <a id="anchor" href="#">Search simulations</a>
+               <div class="cards">
+                <div class="sub-Education">
+                            
+                    <div class="section1">
+                        <h1>Higher Education</h1>
+                        <p>246+simulations</p>
+                    
+                        <p>College University</p>
+            </div>
+            <div class="img-div" > 
+                <img src="./assets/64778a8ac9b8dae9c08a5d0c_Classroom-Students-Medical-Laptop-p-500.webp" alt="">
+            </div>
+            </div>
+            <div class="sub-Education">
+                            
+                <div class="section1">
+                    <h1>High school</h1>
+                    <p>168+simulations</p>
+                
+                    <p>AP IB NGSS</p>
+            </div>
+            <div class="img-div"> 
+            <img src="./assets/64778a8ac9b8dae9c08a5d0c_Classroom-Students-Medical-Laptop-p-500.webp" alt="">
+            </div>
+            </div>
+               </div>
+            <div id="listcontainer">                <li>
+                    <a href="#">Biology</a>
+                    <p>190+simulations</p>
+                </li>
+                <li>
+                    <a href="#">Chemistry</a>
+                    <p>100+simulations</p>
+                </li>
+                <li>
+                    <a href="#">Physics</a>
+                    <p>40+simulations</p>
+                </li>
+                <li>
+                    <a href="#">35+others</a>
+                    <p>300+simulations</p>
+                </li>
+            
+            </div>
+                </section>
+                
+</body>
+</html>
